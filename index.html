@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshcart</title>
+    <meta>
+ <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    
+ 
+    <header id="header-login">
+            <div class="container">
+            <div class="logo">
+                <img src="./images/freshcart-logo.svg" alt="">
+            </div>
+           
+
+            <div class="nav-links">
+                <ul>
+                    <li> <i class="fa-brands fa-facebook"></i> </li>
+                    <li> <i class="fa-brands fa-instagram"></i> </li>
+                    <li><i class="fa-solid fa-cart-shopping"></i></li> 
+                    <div id="number" >
+                        <input type="text" id="cartNumber" value="0"  class="cart-number">
+                        </div>
+                </ul>
+            </div>
+           
+        </div>
+        <form action="" >
+                <div class="content">
+                    <h1>Smart Register System</h1>
+                    <div class="input-form">
+                        <input  type="text" placeholder="Enter your Name" id="upname" name="name" >
+                       
+                    </div>
+                    <div class="input-form">
+                        <input  type="email" placeholder="Enter your Email" id="upemail" name="email">
+                    </div>
+                    <div class="input-form">
+                        <input  type="password" placeholder="Enter your Password" id="password" name="psw">
+                    </div>
+                    <p class="text-danger" id="error" style="display: none;" >All inputs is required</p>
+                    <p class="text-success" id="success" style="display: none;" >Success</p> 
+                    
+                    <div class="button">
+                     <button id="register" type="button" >Register </button> 
+                    </div>
+        
+                </div>
+        </form> 
+</header>
+
+
+ 
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
